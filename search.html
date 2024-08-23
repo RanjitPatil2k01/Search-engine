@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi_Search_Engine</title>
+    <link rel="stylesheet" href="assets/css/search.css">
+    <link rel="shortcut icon" href="./assets/images/search (1).png" type="image/png" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-content">
+            <img src="assets/images/search.gif" alt="Logo" class="first" />
+            <a href="index.html" style="text-decoration: none; color: black;"><h1>Multi_Search_Engine</h1></a>
+            <img src="assets/images/search.gif" alt="Logo" class="second" />
+        </div>
+    </nav>
+
+    <!-- Search Container -->
+    <div class="search-container">
+        <h1 style="font-size: 3rem;">Search</h1>
+        
+            <!-- <input type="text" class="search-input" name="q" placeholder="Search  here...." autofocus> -->
+            <a href="./Google/google.html" style="text-decoration: none;"><button  class="search-button search-form">Google with Search</button></a>
+        <div class="buttons-container">
+            <a href="./Gemini/gemini.html"><button class="search-provider-button" id="gemini" onclick="searchWithGemini()">Search with Gemini</button></a>
+            <a href="./Wiki/Wikipedia.html"><button style="border: 1px solid black;" class="search-provider-button" id="wikipedia" onclick="searchWithWikipedia()">Search with Wikipedia</button></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 Multi_Search_Engine....Developed by Vishal Javare.....
+    </footer>
+
+    <!-- JavaScript functions -->
+    <!-- <script>
+        function searchWithGemini() {
+            window.location.href = "https://www.example.com/search?provider=gemini";
+        }
+
+        function searchWithWikipedia() {
+            window.location.href = "https://www.wikipedia.org/search";
+        }
+    </script> -->
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
